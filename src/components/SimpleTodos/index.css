@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+@media screen and (max-width: 768px) {
+  .item-per {
+    font-size: 10px;
+  }
+  .tido-heading {
+    font-size: 10px;
+  }
+}
+
+.item-pera {
+  font-family: Roboto;
+  text-align: left;
+}
+.button {
+  border-color: red;
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  margin: 10px;
+  color: red;
+}
+.tido-heading {
+  color: #ff8542;
+  font-family: Roboto;
+}
+.item-container {
+  display: flex;
+}
+.ul-list {
+  list-style-type: none;
+}
+.li-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todo-container {
+  background-color: #ffc2a0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .button {
+    height: 20px;
+    width: 40px;
+    font-size: 6px;
+  }
+}
