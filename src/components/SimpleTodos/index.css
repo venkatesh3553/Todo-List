@@ -14,7 +14,7 @@
   text-align: left;
 }
 .button {
-  border-color: red;
+  border: 1px solid red;
   height: 30px;
   width: 80px;
   border-radius: 10px;
@@ -54,7 +54,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 @media screen and (max-width: 768px) {
   .button {
